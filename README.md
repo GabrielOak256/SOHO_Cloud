@@ -16,8 +16,10 @@ The amount of CPU and RAM in a single machine that it would take to support all 
 7.  The wireless cards of all cooperating machines can be handed over to make a mesh network. 
 8.  A SIEM system would be another appropriate organ of this creature. I've read that the ELK stack is FOSS, but struggled to find information on running and configuring it locally. 
 
+All container images described above would be configured automatically by an IaC solution. 
 
-At this point, the sky's the limit. Instead of group policy, contianer workstation images can be set up with minimal permissions. The same machines themselves (with their monitors and keyboards) can be used to access this cluster and request a workstation. 
+
+At this point, the sky's the limit. Instead of group policy, container workstation images can be set up with minimal permissions. The same machines themselves (with their monitors and keyboards) can be used to access this cluster and request a workstation. 
 
 
 
