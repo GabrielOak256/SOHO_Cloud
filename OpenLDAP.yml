@@ -1,0 +1,1 @@
+// This file will become an Ansible/Pulumi/Terraform/Vagrant playbook that can install and configure an OpenLDAP application like FreeIPA in a container. 
