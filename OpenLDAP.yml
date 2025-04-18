@@ -1,1 +1,2 @@
 // This file will become an Ansible/Pulumi/Terraform/Vagrant playbook that can install and configure an OpenLDAP application like FreeIPA in a container. 
+// Users should have the ability to use 4096-bit public/private key logins as has been implemented for SSH, rather than a 32char equivalent password hash.
