@@ -1,3 +1,0 @@
-// This file will become an Ansible/Pulumi/Terraform/Vagrant playbook that can install and configure a SIEM like the ELK Stack in a container. 
-
-// Consideration should be made for another container that only appears once every couple weeks to run Nmap on the cluster and leave a report in the NAS. 
