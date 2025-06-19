@@ -1,7 +1,0 @@
-
-One of the problems we'll want to solve is an algorithm to make the disks of the various old computers into a failure-tolerant volume that the persistent filesystem can occupy. 
-
-For example, a cluster with 200GB, 200GB, 500GB, might turn into: Partition the 500GB into 100GB, 200GB, 200GB. RAID1 the latter two. Make a recommendation for the addition of a 100GB HDD.
-A cluster with 2TB, 1TB, 1TB, 1TB, 1TB, might turn into: Partition the 2TB into 1TB, 1Tb. RAID6 all resulting drives. 
-
-Of course, this work can be done manually, small business to small business. But why not automate it if it's a simple math problem? 
