@@ -1,6 +1,0 @@
-TAILS Linux boots from an external USB drive, and secures all your network traffic. (TLS instead of Tor is sufficient for remote work, as anonymity is abandoned as soon as you log into SSO.) 
-We'd need a USB bootable volume with a baremetal WireGuard/OpenVPN Client and RDP Client, no other functionality is necessary. Perhaps this USB has a thumbprint scanner on the top.
-You can go anywhere in the world, boot any computer from it (no matter how infected) on any network (no matter how infected) and,
-after logging into SSO, treat it as a workstation in your local office building. 
-This would augment the rest of the local cloud idea, as it would be trivial to put a VPN server on the cluster and spin up a workstation for a remote user instead of local. 
-(Of course, this only works since persistent data is worked out of the cluster's NAS.)
