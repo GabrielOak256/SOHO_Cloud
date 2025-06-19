@@ -1,0 +1,17 @@
+
+We can boot computers from external drives. Meaning that all the faff with 
+Mobile Device Management, Bring Your Own Device, or Choose Your Own Device, can 
+be bypassed. 
+Your company issues you a thumbdrive (maybe with a thumbprint reader), which 
+has a VPN client and an RDP client, and nothing else. You can boot any computer 
+in the world from this, bypassing the untrusted internal OS drive, give the IP 
+address of your company to the VPN client, give your SSO to the RDP client, and 
+treat it like of of your company's workstations. 
+
+Because the rest of this hypothetical plan supports entirely virtual desktops 
+with persistent data in a local NAS, it is trivial to copy up another 
+workstation to go over a VPN server's connection. 
+
+TAILS Linux is about augmenting TOR. We don't need TOR instead of TLS, because 
+in this scenario you identify yourself the moment you log into SSO.
+

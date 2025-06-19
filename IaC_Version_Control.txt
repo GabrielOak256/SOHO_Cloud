@@ -1,0 +1,5 @@
+
+Because the whole IT infrastructure is managed in software, efficient version 
+control becomes vital. So, we need to provide a playbook that a technician can
+use to make a private local GitLab instance in a Podman container. 
+

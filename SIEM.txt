@@ -1,0 +1,8 @@
+
+I know of the ELK Stack to provide data-management on a SIEM solution. It is 
+several different applications, meant to be ran in different kernel namespace 
+containers. 
+We'll need to write IaC playbooks for all of them. 
+
+A SIEM system is a dashboard to see all the goings-on in your network. 
+

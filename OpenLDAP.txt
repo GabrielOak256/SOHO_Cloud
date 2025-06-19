@@ -1,0 +1,10 @@
+One of the services running in the cluster needs to be a local identity   
+management solution. I believe the well-supported FOSS tool for that is 
+FreeIPA, but am open to other FOSS options. 
+
+Ideally, users can authenticate with 4096-bit RSA keys, like is supported by 
+SSH, rather than a 256-bit password hash. (256 bits / 8 bits per character = 32 character password strength) 
+
+The idea is that this file becomes an IaC script that technicians can plug into 
+a Podman container and end up with a clean FreeIPA install. 
+

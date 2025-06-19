@@ -1,0 +1,49 @@
+
+One of the containers handles the LAN, like the spinal column of this creature. 
+
+OPN-Sense is user-friendly and comes with a lot of pre-installed features. 
+However it is based on FreeBSD, so doesn't handle wireless well on its own. 
+
+OpenWRT has more flexibility in terms of installable packages. And it is based 
+on Linux so it can handle wireless. 
+
+
+The features that our playbook will need to configure: 
+
+Firewall Rules
+A txt config file defining the ACL can be given as an argument. 
+
+Routing Rules 
+Again, a txt config can be given as an argument.
+
+DHCP Configuration (with Static IP Reservations) 
+
+DNS server 
+
+VPN configuration
+
+VLAN specification
+
+Proxy 
+
+Website blacklist (or whitelist) 
+
+IPS (Snort) 
+
+
+Logins to the network are authenticated by the separate OpenLDAP container. 
+
+Maybe for additional simplicity/modularity, each of these functions can be 
+segregated into separate OpenWRT installations running in different Podman 
+containers. 
+
+If all company hardware is swept into a Kubernetes cluster, then does it follow 
+that we could make a Mesh WiFi network out of all the Desktop's WiFi cards? 
+
+Once routers are virtual and running on the cluster, we can run several in 
+parallel for High Availability. The hardware router seems redundant, but we 
+still need it to prevent a circular dependency on start-up between Kubernetes 
+and the LAN. Could we include it in the load-balancing? It might be a moot-
+point, because maybe the network never handles enough traffic to need multiple 
+workstations running firewall/routing software plugged straight into the modem. 
+

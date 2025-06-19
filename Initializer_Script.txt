@@ -1,0 +1,31 @@
+
+Pseudo Code:
+
+string this_hardware = get_system_hardware();
+
+vector<string> urls = {https://Debian/compatibilitylist, https://Arch/compatibilitylist, ...};
+
+vector<iso_file> installers = {debian.iso, arch.iso, ...};
+
+for (int i = 0; i < urls.size(); ++i) {
+    vector<string> models = retrieve the compatibility list from url
+    for (const auto& model : models) 
+        if (this_hardware == model) {
+            reboot from installers[i]
+            automate the initial installation configuration 
+        }
+}
+
+At this point, we may switch from an IaC solution like Terraform to one like 
+Ansible.
+
+if (OS == Debian) {sudo apt update && sudo apt upgrade}
+elif (OS == Arch) {yum ...}
+...
+else {cerr << "unlisted OS\n"}
+
+Disable all services not needed for the health of the system or by Podman.
+Install Podman. 
+Link up with the Kubernetes on the LAN. 
+
+

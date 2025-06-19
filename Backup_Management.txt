@@ -1,0 +1,4 @@
+
+All workstation templates must make autonomous incremental backups to encrypted 
+NAS storage. 
+

@@ -1,0 +1,4 @@
+
+I have been able to find a private local FOSS solution for Network Access 
+Control (e.g. a device health check) or a Data Loss Prevention application/proxy. 
+

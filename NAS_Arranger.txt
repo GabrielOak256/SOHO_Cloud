@@ -1,0 +1,20 @@
+
+To not strain our client's budgets, we'll want to make the most use of existing 
+hardware. That means supporting HDDs and SSDs of all different sizes. Failure-
+tolerance and backups are separate but important concerns. 
+
+For example: 
+
+200GB, 200GB, 500GB, 
+might become
+Partition the 500GB into 100GB, 200GB, 200GB. RAID1 the latter two. Make a recommendation for the addition of a 100GB HDD.
+
+2TB, 1TB, 1TB, 1TB, 1TB,
+might become
+Partition the 2TB into 1TB, 1TB. RAID6 all resulting volumes. 
+
+
+Of course, this work can be done manually, client to client. But it sounds like 
+a fun math problem for those of us interested in that sort of thing, so why not
+automate it? 
+
