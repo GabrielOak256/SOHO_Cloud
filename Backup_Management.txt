@@ -1,2 +1,0 @@
-Automatic backups are necessary for businesses; They can't afford losing critical data because an employee neglected to save their work. 
-All workstation templates need to create encrypted incremental backup files for the NAS. 
